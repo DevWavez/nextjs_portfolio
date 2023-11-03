@@ -7,7 +7,7 @@ const PROJECT_DATA = [
   {
     id: 1,
     title: "Movie overview",
-    description: "Project 1 description",
+    description: "Movie Rating Website, for current movies",
     image: "/images/projects/js-movie.jpeg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/DevWavez/MovieRating",
@@ -78,7 +78,7 @@ const ProjectSetcion = () => {
             description={project.description}
             imgUrl={project.image}
             gitUrl={project.gitUrl}
-            previewUrl={"/"}
+            previewUrl={project.previewUrl}
           />
         ))}
       </div>
