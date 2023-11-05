@@ -8,7 +8,7 @@ import Image from "next/image";
 const EmailSection = () => {
   const Alert = () => {
     alert(
-      "Thank you, unfortunately the servers are currently busy please contact me via LinkedIn."
+      "Sorry, this function is currently not available. Please contact me via LinkedIn"
     );
   };
 

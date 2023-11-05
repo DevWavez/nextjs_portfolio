@@ -4,14 +4,21 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 const CVdownload = () => {
+  alert(
+    "Thank you for your interest, unfortunately I am currently editing my CV so you can see all my experience in LinkedIn, as well as in GitHub. Thank you for your understanding"
+  );
+  {
+    /*
   const link = document.createElement("a");
   link.href = "/CV.pdf";
-
+  
   link.download = "CV.pdf";
-
+  
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+*/
+  }
 };
 
 const HeroSection = () => {
